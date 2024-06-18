@@ -3,7 +3,87 @@
 
 /*
     Paleta de Cores
-    verde: #49a09d
-    lilás: #5f2c82
+    azul1: #52A5D9
+    azul2: #234459
+    azul3: #A7D5F2
+    azul4: #D5E7F2
+    marrom: #8A8C3B
 */
 
+* {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: url("../imagens/img-back.jpg") no-repeat center 30%;
+    background-size: cover;
+    backdrop-filter: blur(3px);
+}
+
+main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 500px;
+    background: url("../imagens/img-back.jpg") no-repeat center top 215px;
+    background-size: cover;
+    border-radius: 20px;
+    border: 2px solid #D5E7F2;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+
+    transition: width 0.3s, heigth 0.3s ease;
+}
+
+section #imagem {
+    display: block;
+    background: url("../imagens/pc.jpg") no-repeat center 59%;
+    background-size: cover;
+    height: 215px;
+}
+
+section #formulario {
+    display: block;
+    padding: 10px;
+    color: black;
+}
+
+section #formulario h1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+section #formulario p {
+    font-size: 0.8em;
+}
+
+form .container {
+    border: 1px solid #D5E7F2;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+input {
+    padding: 3px;
+    border-radius: 7px;
+}
+
+#iesqueci {
+    border-radius: 0px;
+    cursor: pointer;
+}
