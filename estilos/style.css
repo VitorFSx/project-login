@@ -128,3 +128,7 @@ form input[type=password] {
     padding: 5px;
     border-radius: 7px;
 }
+
+.campo label {
+    display: inline-block;
+}
