@@ -55,7 +55,7 @@ section #imagem {
 }
 
 section #formulario {
-    display: inline-block;
+    display: block;
     padding: 10px;
     color: black;
 }
@@ -127,4 +127,8 @@ form input[type=email] {
 form input[type=password] {
     padding: 5px;
     border-radius: 7px;
+}
+
+.container label {
+    display: none;
 }
