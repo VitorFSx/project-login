@@ -36,10 +36,6 @@
     .container input[type=submit], .container a {
         width: 70%;
     }
-
-    .campo label {
-        display: inline-block;
-    }
 }
 
 @media screen and (min-width: 992px) {
@@ -78,9 +74,5 @@
 
     .container input[type=submit], .container a {
         width: 70%;
-    }
-
-    .campo label {
-        display: inline-block;
     }
 }
