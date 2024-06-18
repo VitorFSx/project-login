@@ -36,8 +36,8 @@ section#login {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 300px;
-    height: 500px;
-    background: url("../imagens/img-back.jpg") no-repeat center top 215px;
+    height: 530px;
+    background: url("../imagens/img-back.jpg") no-repeat center top 158px;
     background-size: cover;
     border-radius: 20px;
     border: 2px solid #D5E7F2;
@@ -74,16 +74,57 @@ form .container {
     border-radius: 10px;
     margin-top: 20px;
     text-align: center;
-    padding-bottom: 10px;
-    padding-top: 10px;
 }
 
-input {
-    padding: 3px;
+.container input[type=submit] {
+    font-size: 1em;
+    width: 90%;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background-color: #52A5D9;
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+    border: 1px solid #234459;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container input[type=submit]:hover {
+    font-weight: normal;
+    background-color: transparent;
+    color: #234459;
+    cursor: pointer;
+}
+
+.container a {
+    display: block;
+    font-size: 1em;
+    width: 90%;
+    height: 40px;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+    border: 1px solid #234459;
+    color: #234459;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container a:hover {
+    background-color: #52A5D9;
+    cursor: pointer;
+    color: white;
+}
+
+
+form input[type=email] {
+    padding: 5px;
     border-radius: 7px;
 }
 
-#iesqueci {
-    border-radius: 0px;
-    cursor: pointer;
+form input[type=password] {
+    padding: 5px;
+    border-radius: 7px;
 }
